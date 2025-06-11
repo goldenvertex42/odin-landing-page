@@ -1,0 +1,96 @@
+@layer reset {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: unset;
+  }
+
+  button,
+  input,
+  textarea,
+  select {
+    font: inherit;
+  }
+
+  img,
+  picture,
+  svg,
+  canvas {
+    display: block;
+    max-inline-size: 100%;
+    block-size: auto;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+body {
+    font-family: Roboto;
+}
+
+.header {
+    background-color: #1F2937;
+    padding: 0 150px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.links {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav {
+    display: flex;
+}
+
+.media {
+    padding: 50px 0;
+    display: flex;
+    align-items: flex-start;
+}
+
+.header-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.header-subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header-text,
+.header-subtext {
+    flex: 1;
+}
+
+.button {
+    align-self: flex-start;
+}
+
+.headerimg {
+    max-width: 100%;
+    display: block;
+    padding-left: 20px;
+}
