@@ -112,6 +112,10 @@ div.content {
     width: 400px;
 }
 
+.info {
+  padding: 0 200px;
+}
+
 .img1,
 .img2,
 .img3,
@@ -128,4 +132,30 @@ div.content {
   font-weight: 900;
   text-align: center;
   margin: 50px 0;
+  
 }
+
+.img-text1,
+.img-text2,
+.img-text3,
+.img-text4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex: none;
+}
+
+.text1,
+.text2,
+.text3,
+.text4 {
+  max-width: 175px;
+}
+
+.img-text-box {
+  display: flex;
+  justify-content: space-between;
+}
+
