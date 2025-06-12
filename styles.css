@@ -121,3 +121,11 @@ div.content {
   border: 5px solid #3882F6;
   border-radius: 12px;
 }
+
+.infotext {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  text-align: center;
+  margin: 50px 0;
+}
