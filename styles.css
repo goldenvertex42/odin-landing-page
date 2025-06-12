@@ -114,6 +114,7 @@ div.content {
 
 .info {
   padding: 0 200px;
+  margin: 50px 0 100px;
 }
 
 .img1,
@@ -131,8 +132,7 @@ div.content {
   color: #1F2937;
   font-weight: 900;
   text-align: center;
-  margin: 50px 0;
-  
+  margin: 50px 0;  
 }
 
 .img-text1,
