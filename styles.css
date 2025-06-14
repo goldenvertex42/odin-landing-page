@@ -218,10 +218,10 @@ span {
   color: #F9FAF8;
   background-color: #3882F6;
   padding: 2px 28px;
-  border: 2x solid white;
+  border: 2px solid #F9FAF8;
   border-radius: 8px;
   font-weight: 600;
-  height: 50px;
+  height: 38px;
   margin-left: 225px;
 }
 
