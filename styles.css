@@ -90,7 +90,7 @@ a {
     flex: 1;
 }
 
-.button {
+.headerbutton {
     background-color: #3882F6;
     color: #F9FAF8;
     border: none;
@@ -181,5 +181,47 @@ h2.phil-collins {
 
 span {
   font-weight: 900;
+}
+
+.actionbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calltoaction {
+  display: flex;
+  background-color: #3882F6;
+  padding: 50px 75px;
+  margin: 100px;
+  border-radius: 8px;
+}
+
+.cta-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.cta-text {
+  color: white;
+  font-size: 18px;
+  margin: 0;
+}
+
+.cta-subtext {
+  margin: 0;
+  padding: 0;
+  color: #E5E7EB;
+}
+
+.cta-button {
+  color: #F9FAF8;
+  background-color: #3882F6;
+  padding: 2px 28px;
+  border: 2x solid white;
+  border-radius: 8px;
+  font-weight: 600;
+  height: 50px;
+  margin-left: 225px;
 }
 
